@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>have a cup of tea</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!-- //Meta tag Keywords -->
+
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-Core-CSS -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext"
+	 rel="stylesheet">
+	<!-- Google Fonts (Comforta) -->
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body style="font-family: 'Comfortaa', cursive;">
+	<!-- main banner -->
+	<div class="main-top" id="home">
+		<!-- header -->
+		<header>
+			<div class="container-fluid">
+				<div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
+					<!-- logo -->
+			<div id="logo">
+						<a class="navbar-brand" href="index"><img style="width: 100px;" src="aclogo.png"></a>
+					</div>
+					<!-- //logo -->				
+				</div>
+			</div>
+		</header>
+
+	<section class="midd-temps-amk py-5" id="faq">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row">
+				<div style=" font-family: 'Quicksand', sans-serif;" class="col-lg-6 about-right-faq">
+	<h3 align="center" style="color: #16161D; font-weight: lighter; font-size: 50px;font-family: 'Quicksand', sans-serif;" class="text-da">Thank You ♥...<br><div id="counter">5</div></h3>
+				</div>
+				<div class="col-lg-4 left-amk-tems-img text-right">
+					<img src="images/thanks-you.png" alt="" class="img-fluid mt-5" />
+				</div>
+			</div>
+		</div>
+	</section>
+<script>
+	setInterval(function() {
+            var div = document.querySelector("#counter");
+            var count = div.textContent * 1 - 1;
+            div.textContent = count;
+            if (count <= 0) {
+                window.location.replace("index.php");
+            }
+        }, 1000);        
+    </script>
+</body>
+</html>
